@@ -1,0 +1,38 @@
+.logo.vite:hover {
+  filter: drop-shadow(0 0 2em #747bff);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafb);
+}
+.nav{
+  background-color: #737373;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+.navbar{
+  /*margin-left: 45%;*/
+  justify-items: center;
+  justify-content: center;
+  display: flex;
+}
+.item{
+  border-radius: 20px;
+  margin: 4px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 10px;
+  transition: 0.2s ease-out;
+}
+.item:hover{
+  transform: scale(1.1);
+  color: aquamarine;
+}
+#selected{
+  font-size: 12px;
+}
+.center{
+  margin: 2%;
+  text-align: center;
+}
